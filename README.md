@@ -1,7 +1,7 @@
 # Dart Course — App Programming
-## SRH Berlin — Session 2
+## SRH Berlin
 
-Topics covered:
+Topics:
 - 01 Variables
 - 02 Strings
 - 03 Conditionals
@@ -9,4 +9,5 @@ Topics covered:
 - 05 Functions
 - 06 Classes
 
-Use [DartPad](https://dartpad.dev) to run any .dart file.
+Each folder has example.dart (follow along) and exercise.dart (solve yourself).
+Use https://dartpad.dev to run any file — no installation needed.
