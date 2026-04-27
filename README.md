@@ -10,4 +10,4 @@ Topics:
 - 06 Classes
 
 Each folder has example.dart (follow along) and exercise.dart (solve yourself).
-Use https://dartpad.dev to run any file — no installation needed.
+Use https://dartpad.dev to run any file.
