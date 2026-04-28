@@ -1,0 +1,62 @@
+Step 1 — Move the SDK to a clean location
+Cut/paste the flutter folder from Downloads to C:\flutter using File Explorer. Avoid paths like Program Files (spaces cause issues).
+Step 2 — Add Flutter to PATH
+1. Press Windows key and search "Environment Variables"
+2. Click "Edit the system environment variables"
+3. Click "Environment Variables" button
+4. Under User variables, click on Path → Edit
+5. Click New and add:
+
+
+   C:\flutter\bin
+1. Click OK on all windows
+Step 3 — Open a new terminal and verify:
+
+
+bash
+flutter --version
+Step 4 — Enable web:
+
+
+bash
+flutter config --enable-web
+Step 5 — Check setup:
+
+
+bash
+flutter doctor
+ 
+
+macOS 
+Step 1 — Move the SDK to a clean location
+
+bash
+mkdir ~/development
+mv ~/Downloads/flutter ~/development/flutter
+
+Step 2 — Add Flutter to PATH
+bash
+echo 'export PATH="$HOME/development/flutter/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+Step 3 — Verify Flutter is found:
+
+
+bash
+flutter --version
+Step 4 — Enable web:
+
+
+bash
+flutter config --enable-web
+Step 5 — Check setup:
+
+
+bash
+flutter doctor
+
+Or
+
+brew --version
+brew install --cask flutter
+flutter config --enable-web
+flutter doctor
