@@ -7,7 +7,7 @@ void main() {
   print(firstName + ' ' + lastName);
   print('My name is $firstName $lastName');
   print('I am $age years old');
-  print('GPA rounded: ${gpa.toInt()}');
+  print('GPA rounded: ${gpa.toInt()}'); //property
   print('In 5 years I will be ${age + 5}');
 
   print(firstName.length);
